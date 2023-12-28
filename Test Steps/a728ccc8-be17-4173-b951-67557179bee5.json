@@ -1,0 +1,20 @@
+{
+    "steps": [
+        "step 1: Navigate to Page home",
+        "step 2: At Page home click on button object --> navigate to Page signin",
+        "step 3: Login at Page signin --> navigate to Page home",
+        "step 4: Navigate to Page home --> navigate to Page booking doctor",
+        "step 5: At Page booking doctor click on p object --> navigate to Page booking doctor date",
+        "step 6: At Page booking doctor date click on button date picker",
+        "step 7: At Page booking doctor date click on li date items",
+        "step 8: At Page booking doctor date click on button timeslot",
+        "step 9: At Page booking doctor date click on textarea r7",
+        "step 10: At Page booking doctor date input on textarea r7",
+        "step 11: At Page booking doctor date click on button object",
+        "step 12: At Page booking doctor date click on button book action --> navigate to Page user appointment-history",
+        "step 13: At Page user appointment-history click on button object",
+        "step 14: At Page user appointment-history click on li cancel button",
+        "step 15: At Page user appointment-history click on button ra",
+        "step 16: Add visual checkpoint at Page user appointment-history"
+    ]
+}

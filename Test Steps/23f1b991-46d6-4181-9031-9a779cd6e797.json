@@ -1,0 +1,9 @@
+{
+    "steps": [
+        "step 1: Navigate to Page home",
+        "step 2: At Page home click on button object --> navigate to Page signin",
+        "step 3: Login at Page signin --> navigate to Page home",
+        "step 4: Navigate to Page home --> navigate to Page user profile",
+        "step 5: Add visual checkpoint at Page user profile"
+    ]
+}
