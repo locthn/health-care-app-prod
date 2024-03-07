@@ -1,0 +1,9 @@
+{
+    "steps": [
+        "step 1: Navigate to https://health-care-prod.katalon.io/",
+        "step 2: Login -> Navigate to page 'vinylboeden/art/klick-vinyl'",
+        "step 3: Click on link  -> Navigate to page 'paging/*'",
+        "step 4: Hover over div",
+        "step 5: Take full page screenshot as checkpoint"
+    ]
+}

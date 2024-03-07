@@ -1,0 +1,23 @@
+{
+    "steps": [
+        "step 1: Navigate to https://health-care-prod.katalon.io/",
+        "step 2: Login -> Navigate to page 'paging/*'",
+        "step 3: Click on svg",
+        "step 4: Click on svg",
+        "step 5: Click on svg",
+        "step 6: Click on svg",
+        "step 7: Click on svg",
+        "step 8: Click on link",
+        "step 9: Hover over div",
+        "step 10: Click on svg",
+        "step 11: Click on svg",
+        "step 12: Click on svg",
+        "step 13: Click on svg",
+        "step 14: Click on svg",
+        "step 15: Click on svg",
+        "step 16: Click on svg",
+        "step 17: Click on svg",
+        "step 18: Click on link",
+        "step 19: Take full page screenshot as checkpoint"
+    ]
+}

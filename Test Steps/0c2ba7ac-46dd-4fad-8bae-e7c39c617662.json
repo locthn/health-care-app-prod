@@ -1,0 +1,9 @@
+{
+    "steps": [
+        "step 1: Navigate to https://health-care-prod.katalon.io/",
+        "step 2: Login -> Navigate to page 'vinylboeden/art/rigid-vinyl'",
+        "step 3: Click on link 'Beige / Creme (45)'",
+        "step 4: Click on button  -> Navigate to page 'vinylboeden/art-des-vinylbodens/rigid-vinyl/*'",
+        "step 5: Take full page screenshot as checkpoint"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "steps": [
+        "step 1: Navigate to https://health-care-prod.katalon.io/",
+        "step 2: Login",
+        "step 3: Click on link  -> Navigate to page 'laminat'",
+        "step 4: Click on button",
+        "step 5: Click on div",
+        "step 6: Click on span",
+        "step 7: Click on link",
+        "step 8: Click on button",
+        "step 9: Click on link  -> Navigate to page 'laminat/*'",
+        "step 10: Take full page screenshot as checkpoint"
+    ]
+}

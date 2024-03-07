@@ -1,38 +1,170 @@
-Flow ID,Description,Test Steps,Flow Priority
-4,Verify User Appointment History Page after Booking Doctor and Cancelling Appointment from Home Page,"step 1: Navigate to Page home
-step 2: At Page home click on button object --> navigate to Page signin
-step 3: Login at Page signin --> navigate to Page home
-step 4: Navigate to Page home --> navigate to Page booking doctor
-step 5: At Page booking doctor click on p object --> navigate to Page booking doctor date
-step 6: At Page booking doctor date click on button date picker
-step 7: At Page booking doctor date click on li date items
-step 8: At Page booking doctor date click on button timeslot
-step 9: At Page booking doctor date click on textarea r7
-step 10: At Page booking doctor date input on textarea r7
-step 11: At Page booking doctor date click on button object
-step 12: At Page booking doctor date click on button book action --> navigate to Page user appointment-history
-step 13: At Page user appointment-history click on button object
-step 14: At Page user appointment-history click on li cancel button
-step 15: At Page user appointment-history click on button ra
-step 16: Add visual checkpoint at Page user appointment-history",High
-3,Verify User Appointment History Page after Booking Doctor from Home Page,"step 1: Navigate to Page home
-step 2: At Page home click on button object --> navigate to Page signin
-step 3: Login at Page signin --> navigate to Page home
-step 4: Navigate to Page home --> navigate to Page booking doctor
-step 5: At Page booking doctor click on p object --> navigate to Page booking doctor date
-step 6: At Page booking doctor date click on button date picker
-step 7: At Page booking doctor date click on li date items
-step 8: At Page booking doctor date click on hyperlink user appointment history --> navigate to Page user appointment-history
-step 9: Add visual checkpoint at Page user appointment-history",Medium
-2,Verify Booking Page after Login from Home Page,"step 1: Navigate to Page home
-step 2: At Page home click on button object --> navigate to Page signin
-step 3: Login at Page signin --> navigate to Page home
-step 4: At Page home click on button auth button --> navigate to Page booking
-step 5: Add visual checkpoint at Page booking",Medium
-1,Verify User Profile Page after Login from Home Page,"step 1: Navigate to Page home
-step 2: At Page home click on button object --> navigate to Page signin
-step 3: Login at Page signin --> navigate to Page home
-step 4: Navigate to Page home --> navigate to Page user profile
-step 5: Add visual checkpoint at Page user profile",Medium
-5,Verify Home Page,"step 1: Navigate to Page home
-step 2: Add visual checkpoint at Page home",Trivial
+Flow ID,Name,Description,Test Steps,Flow Priority
+1,Verify Page Paging after Logging in at Page Home,"Navigate to the home page and log in. Perform a series of clicks and hovers, then verify the page paging.","step 1: Navigate to https://health-care-prod.katalon.io/
+step 2: Login -> Navigate to page 'paging/*'
+step 3: Click on svg
+step 4: Click on svg
+step 5: Click on svg
+step 6: Click on svg
+step 7: Click on svg
+step 8: Click on link
+step 9: Hover over div
+step 10: Click on svg
+step 11: Click on svg
+step 12: Click on svg
+step 13: Click on svg
+step 14: Click on svg
+step 15: Click on svg
+step 16: Click on svg
+step 17: Click on svg
+step 18: Click on link
+step 19: Take full page screenshot as checkpoint",High
+2,Verify Page Laminat after Clicking Objects at Page Home,Navigate to the home page and click on different objects to access the page laminat. Perform a series of clicks and verify the page laminat.,"step 1: Navigate to https://health-care-prod.katalon.io/
+step 2: Click on link  -> Navigate to page 'laminat'
+step 3: Click on button
+step 4: Click on div
+step 5: Click on span
+step 6: Click on link
+step 7: Click on button
+step 8: Click on link  -> Navigate to page 'laminat/*'
+step 9: Click on input field
+step 10: Click on input field
+step 11: Click on link
+step 12: Take full page screenshot as checkpoint",High
+3,Verify Page Sale after Logging in at Page Home,Navigate to the home page and log in. Perform a series of clicks to access the page sale and verify it.,"step 1: Navigate to https://health-care-prod.katalon.io/
+step 2: Login -> Navigate to page 'filiale/dortmund'
+step 3: Click on button
+step 4: Click on link
+step 5: Click on button  -> Navigate to page 'sale'
+step 6: Take full page screenshot as checkpoint",High
+4,Verify Page Laminat after Logging in at Page Home,Navigate to the home page and log in. Click on different objects to access the page laminat. Perform a series of clicks and verify the page laminat.,"step 1: Navigate to https://health-care-prod.katalon.io/
+step 2: Login
+step 3: Click on link  -> Navigate to page 'laminat'
+step 4: Click on button
+step 5: Click on div
+step 6: Click on span
+step 7: Click on link
+step 8: Click on button
+step 9: Click on link  -> Navigate to page 'laminat/*'
+step 10: Take full page screenshot as checkpoint",High
+5,Verify Page Paging after Logging in at Page Home,Navigate to the home page and log in. Click on different objects to access the page paging. Perform a series of clicks and verify the page paging.,"step 1: Navigate to https://health-care-prod.katalon.io/
+step 2: Login -> Navigate to page 'vinylboeden/verlegeart/klicken'
+step 3: Click on button
+step 4: Click on header
+step 5: Click on header
+step 6: Click on link 'Grau (58)'
+step 7: Click on button
+step 8: Click on link 'zur n\xe4chsten Seite' -> Navigate to page 'paging/*'
+step 9: Take full page screenshot as checkpoint",High
+6,Verify Page Laminat Farbgebung Hell after Logging in at Page Home,Navigate to the home page and log in. Click on different objects to access the page laminat farbgebung hell. Perform a series of clicks and verify the page laminat farbgebung hell.,"step 1: Navigate to https://health-care-prod.katalon.io/
+step 2: Login -> Navigate to page 'paging/*'
+step 3: Click on link  -> Navigate to page 'laminat/farbgebung/mittel/*'
+step 4: Click on image
+step 5: Click on image  -> Navigate to page 'paging/*'
+step 6: Click on button
+step 7: Click on button  -> Navigate to page 'laminat/farbgebung/hell'
+step 8: Click on link  -> Navigate to page 'laminat/farbgebung/hell/*'
+step 9: Take full page screenshot as checkpoint",High
+7,Verify Page Home after Logging in at Page Home,"Navigate to the home page and log in. Perform a series of clicks and hovers, then verify the page home.","step 1: Navigate to https://health-care-prod.katalon.io/
+step 2: Login -> Navigate to page '*'
+step 3: Click on image
+step 4: Click on image
+step 5: Click on image
+step 6: Click on image
+step 7: Click on svg  -> Navigate to page 'viewdata/*'
+step 8: Click on link  -> Navigate to page '*'
+step 9: Take full page screenshot as checkpoint",High
+9,Verify Page Laminat Farbgebung Hell after Logging in at Page Home,Navigate to the home page and log in. Click on different objects to access the page laminat farbgebung hell. Verify the page laminat farbgebung hell.,"step 1: Navigate to https://health-care-prod.katalon.io/
+step 2: Login -> Navigate to page 'laminat/farbgebung/hell'
+step 3: Click on button
+step 4: Click on header
+step 5: Click on link
+step 6: Take full page screenshot as checkpoint",Medium
+8,Verify Page Zubehoer Ecken Verbinder Alle Ecken Verbinder after Logging in at Page Home,Navigate to the home page and log in. Click on different objects to access the page zubehoer ecken verbinder alle ecken verbinder. Verify the page zubehoer ecken verbinder alle ecken verbinder.,"step 1: Navigate to https://health-care-prod.katalon.io/
+step 2: Login -> Navigate to page 'paging/*'
+step 3: Click on button
+step 4: Click on header
+step 5: Click on link 'Wei\xdf (13)' -> Navigate to page 'zubehoer/ecken-verbinder/alle-ecken-verbinder'
+step 6: Take full page screenshot as checkpoint",Medium
+10,Verify Page Paging after Logging in at Page Home,"Navigate to the home page and log in. Click on different objects and hovers, then verify the page paging.","step 1: Navigate to https://health-care-prod.katalon.io/
+step 2: Login -> Navigate to page 'paging/*'
+step 3: Click on list item
+step 4: Click on link 'to page 3'
+step 5: Hover over div
+step 6: Take full page screenshot as checkpoint",Medium
+11,Verify Page Laminat Farbgebung Hell after Logging in at Page Home,Navigate to the home page and log in. Click on different objects to access the page laminat farbgebung hell. Verify the page laminat farbgebung hell.,"step 1: Navigate to https://health-care-prod.katalon.io/
+step 2: Login -> Navigate to page 'laminat/farbgebung/hell/*'
+step 3: Click on link
+step 4: Click on svg
+step 5: Take full page screenshot as checkpoint",Medium
+12,Verify Page Bestseller after Logging in at Page Home,Navigate to the home page and log in. Click on different objects to access the page bestseller. Verify the page bestseller.,"step 1: Navigate to https://health-care-prod.katalon.io/
+step 2: Login -> Navigate to page 'bioboeden/farbgebung/hell'
+step 3: Click on link 'zur n\xe4chsten Seite'
+step 4: Click on div  -> Navigate to page 'Bestseller'
+step 5: Take full page screenshot as checkpoint",Medium
+18,Verify Page Paging after Logging in at Page Home,Navigate to the home page and log in. Click on different objects to access the page paging. Perform a series of clicks and verify the page paging.,"step 1: Navigate to https://health-care-prod.katalon.io/
+step 2: Login -> Navigate to page 'laminat/farbgebung/mittel'
+step 3: Click on span  -> Navigate to page 'paging/*'
+step 4: Take full page screenshot as checkpoint",Low
+22,Verify Login to page Daemmung Trittschalldaemmung Vinylboden,Navigate to the home page and login to access pageDaemmungTrittschalldaemmungVinylboden. Verify the successful login to pageDaemmungTrittschalldaemmungVinylboden.,"step 1: Navigate to https://health-care-prod.katalon.io/
+step 2: Login -> Navigate to page 'daemmung/trittschalldaemmung-vinylboden'
+step 3: Click on link  -> Navigate to page 'daemmung/trittschalldaemmung-vinylboden/*'
+step 4: Take full page screenshot as checkpoint",Low
+21,Verify Login to page Filiale Bietigheim,Navigate to the home page and login to access pageFilialeBietigheim. Verify the successful login to pageFilialeBietigheim.,"step 1: Navigate to https://health-care-prod.katalon.io/
+step 2: Login -> Navigate to page 'filiale/bietigheim'
+step 3: Click on button
+step 4: Take full page screenshot as checkpoint",Low
+20,Verify Page Filiale Hannover after Logging in at Page Home,Navigate to the home page and log in. Click on different objects to access the page filiale hannover. Verify the page filiale hannover.,"step 1: Navigate to https://health-care-prod.katalon.io/
+step 2: Login -> Navigate to page 'filiale/hannover'
+step 3: Click on button
+step 4: Take full page screenshot as checkpoint",Low
+19,Verify Page Home after Logging in at Page Home,Navigate to the home page and log in. Click on different objects to access the page home. Verify the page home.,"step 1: Navigate to https://health-care-prod.katalon.io/
+step 2: Login -> Navigate to page 'laminat/farbgebung/hell/*'
+step 3: Click on link  -> Navigate to page '*'
+step 4: Take full page screenshot as checkpoint",Low
+14,Verify Page Paging after Logging in at Page Home,Navigate to the home page and log in. Click on different objects to access the page paging. Perform a series of clicks and verify the page paging.,"step 1: Navigate to https://health-care-prod.katalon.io/
+step 2: Login -> Navigate to page 'paging/*'
+step 3: Click on link 'zur n\xe4chsten Seite'
+step 4: Click on link 'zur n\xe4chsten Seite'
+step 5: Take full page screenshot as checkpoint",Low
+17,Verify Page Viewdata after Logging in at Page Home,Navigate to the home page and log in. Click on different objects to access the page viewdata. Verify the page viewdata.,"step 1: Navigate to https://health-care-prod.katalon.io/
+step 2: Login -> Navigate to page 'viewdata/*'
+step 3: Click on button
+step 4: Take full page screenshot as checkpoint",Low
+16,Verify Page Home after Logging in at Page Home,Navigate to the home page and log in. Click on different objects to access the page home. Verify the page home.,"step 1: Navigate to https://health-care-prod.katalon.io/
+step 2: Login -> Navigate to page 'viewdata/*'
+step 3: Click on link  -> Navigate to page '*'
+step 4: Take full page screenshot as checkpoint",Low
+15,Verify Page Filiale Hamburg after Logging in at Page Home,Navigate to the home page and log in. Click on different objects to access the page filiale hamburg. Verify the page filiale hamburg.,"step 1: Navigate to https://health-care-prod.katalon.io/
+step 2: Login -> Navigate to page 'filiale/hamburg'
+step 3: Click on div
+step 4: Click on button
+step 5: Take full page screenshot as checkpoint",Low
+13,Verify Page Paging after Logging in at Page Home,Navigate to the home page and log in. Click on different objects to access the page paging. Perform a hover and verify the page paging.,"step 1: Navigate to https://health-care-prod.katalon.io/
+step 2: Login -> Navigate to page 'vinylboeden/art/klick-vinyl'
+step 3: Click on link  -> Navigate to page 'paging/*'
+step 4: Hover over div
+step 5: Take full page screenshot as checkpoint",Low
+23,Verify Login to page Vinylboeden Art Klick Vinyl,Navigate to the home page and login to access pageFilialeBietigheim. Click the button to access pageVinylboedenArtKlickVinyl and verify the successful login.,"step 1: Navigate to https://health-care-prod.katalon.io/
+step 2: Login -> Navigate to page 'filiale/bietigheim'
+step 3: Click on button  -> Navigate to page 'vinylboeden/art/klick-vinyl'
+step 4: Take full page screenshot as checkpoint",Low
+24,Verify Login to page Vinylboeden Art Des Vinylbodens Rigid Vinyl,Navigate to the home page and login to access pageVinylboedenArtRigidVinyl. Click on the specified item and the button to access pageVinylboedenArtDesVinylbodensRigidVinyl. Verify the successful login.,"step 1: Navigate to https://health-care-prod.katalon.io/
+step 2: Login -> Navigate to page 'vinylboeden/art/rigid-vinyl'
+step 3: Click on link 'Beige / Creme (45)'
+step 4: Click on button  -> Navigate to page 'vinylboeden/art-des-vinylbodens/rigid-vinyl/*'
+step 5: Take full page screenshot as checkpoint",Trivial
+25,Verify Access to page Bioboeden,Navigate to the home page and login. Access the pageBioboeden and verify the successful access.,"step 1: Navigate to https://health-care-prod.katalon.io/
+step 2: Login
+step 3: Click on div
+step 4: Click on div  -> Navigate to page 'bioboeden'
+step 5: Take full page screenshot as checkpoint",Trivial
+26,Verify Access to page Vinylboeden,Navigate to the home page and login. Access the pageVinylboeden and verify the successful access.,"step 1: Navigate to https://health-care-prod.katalon.io/
+step 2: Login
+step 3: Click on div  -> Navigate to page 'vinylboeden'
+step 4: Take full page screenshot as checkpoint",Trivial
+27,Verify Login to page Vinylboeden Art Des Vinylbodens Klick Vinyl,Navigate to the home page and login to access pageVinylboedenArtDesVinylbodensKlickVinyl. Input the search term and verify the successful login.,"step 1: Navigate to https://health-care-prod.katalon.io/
+step 2: Login -> Navigate to page 'vinylboeden/art-des-vinylbodens/klick-vinyl/*'
+step 3: Click on input field 'SearchTerm'
+step 4: Enter input value in input field 'SearchTerm'
+step 5: Click on image
+step 6: Take full page screenshot as checkpoint",Trivial
